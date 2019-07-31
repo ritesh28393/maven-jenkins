@@ -1,0 +1,130 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<annotation-array>
+  <warning plugin="checkstyle@4.0.0">
+    <message>Parameter someone should be final.</message>
+    <priority>HIGH</priority>
+    <key>5203656953691495400</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.96">
+        <start>16</start>
+        <end>16</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>16</primaryLineNumber>
+    <fileName>/var/lib/jenkins/workspace/static-analysis/server/src/main/java/com/example/Greeter.java</fileName>
+    <moduleName></moduleName>
+    <packageName>com.example</packageName>
+    <category>Checks</category>
+    <type>FinalParametersCheck</type>
+    <contextHashCode>-642785010</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>server/src/main/java/com/example</pathName>
+    <primaryColumnStart>23</primaryColumnStart>
+    <primaryColumnEnd>23</primaryColumnEnd>
+    <build>1</build>
+    <authorName>James Lee</authorName>
+    <authorEmail>jameleetutorial@gmail.com</authorEmail>
+    <commitId>75b1132065df733d6b49c8a0063f4174cdc6c627</commitId>
+  </warning>
+  <warning plugin="checkstyle@4.0.0">
+    <message>Method &apos;greet&apos; is not designed for extension - needs to be abstract, final or empty.</message>
+    <priority>HIGH</priority>
+    <key>5203656953691495398</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.96">
+        <start>16</start>
+        <end>16</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>16</primaryLineNumber>
+    <fileName reference="../../warning/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Design</category>
+    <type>DesignForExtensionCheck</type>
+    <contextHashCode>881095418</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>server/src/main/java/com/example</pathName>
+    <primaryColumnStart>3</primaryColumnStart>
+    <primaryColumnEnd>3</primaryColumnEnd>
+    <build>1</build>
+    <authorName>James Lee</authorName>
+    <authorEmail>jameleetutorial@gmail.com</authorEmail>
+    <commitId>75b1132065df733d6b49c8a0063f4174cdc6c627</commitId>
+  </warning>
+  <warning plugin="checkstyle@4.0.0">
+    <message>Missing a Javadoc comment.</message>
+    <priority>HIGH</priority>
+    <key>5203656953691495399</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.96">
+        <start>16</start>
+        <end>16</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>16</primaryLineNumber>
+    <fileName reference="../../warning/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Javadoc</category>
+    <type>JavadocMethodCheck</type>
+    <contextHashCode>394491671</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>server/src/main/java/com/example</pathName>
+    <primaryColumnStart>3</primaryColumnStart>
+    <primaryColumnEnd>3</primaryColumnEnd>
+    <build>1</build>
+    <authorName>James Lee</authorName>
+    <authorEmail>jameleetutorial@gmail.com</authorEmail>
+    <commitId>75b1132065df733d6b49c8a0063f4174cdc6c627</commitId>
+  </warning>
+  <warning plugin="checkstyle@4.0.0">
+    <message>Missing package-info.java file.</message>
+    <priority>HIGH</priority>
+    <key>5203656953691495396</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.96">
+        <start>0</start>
+        <end>0</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>0</primaryLineNumber>
+    <fileName reference="../../warning/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Javadoc</category>
+    <type>JavadocPackageCheck</type>
+    <contextHashCode>-1208139470</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>server/src/main/java/com/example</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>1</build>
+  </warning>
+  <warning plugin="checkstyle@4.0.0">
+    <message>Comment matches to-do format &apos;TODO:&apos;.</message>
+    <priority>HIGH</priority>
+    <key>5203656953691495397</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.96">
+        <start>15</start>
+        <end>15</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>15</primaryLineNumber>
+    <fileName reference="../../warning/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Checks</category>
+    <type>TodoCommentCheck</type>
+    <contextHashCode>793394310</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>server/src/main/java/com/example</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>1</build>
+    <authorName>James Lee</authorName>
+    <authorEmail>jameleetutorial@gmail.com</authorEmail>
+    <commitId>75b1132065df733d6b49c8a0063f4174cdc6c627</commitId>
+  </warning>
+</annotation-array>

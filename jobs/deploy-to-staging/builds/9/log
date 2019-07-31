@@ -1,0 +1,9 @@
+Started by user [8mha:////4M08xxtPcD7V9ddMsl2bij1NqF5iJTNiNKRebl3uxHVRAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/deploy-to-staging
+Copied 1 artifact from "[8mha:////4KSKxdiMTEVyzdUsGadlWaea6xvFyZmUgU3ZgDet00TvAAAAjh+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhgL2Hg1c/KT9IvSEzOTkxP1QcAYtRxs5IAAAA=[0mpackage" build number [8mha:////4OLJtNkPbIOByp74N3HeMbbh/2IwqBbCqOMp31lwUGkOAAAAkR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhgKmEQ0M/KT9IvSEzOTkxP1Tc00AcAI+kfCZUAAAA=[0m10
+[DeployPublisher][INFO] Attempting to deploy 1 war file(s)
+[DeployPublisher][INFO] Deploying /var/lib/jenkins/workspace/deploy-to-staging/webapp/target/webapp.war to container Tomcat 8.x Remote with context null
+  [/var/lib/jenkins/workspace/deploy-to-staging/webapp/target/webapp.war] is not deployed. Doing a fresh deployment.
+  Deploying [/var/lib/jenkins/workspace/deploy-to-staging/webapp/target/webapp.war]
+Finished: SUCCESS

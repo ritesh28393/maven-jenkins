@@ -1,0 +1,19 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-07-31 07:47:52.837 UTC</timestamp>
+  <md5sum>f463768316862362fd3cd655ea17dbea</md5sum>
+  <fileName>Credential id=295372f4-2bf6-409b-96d0-8f7f2688d46c name=ritesh/****** (tomcat staging creds)</fileName>
+  <usages/>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@2.2.0">
+      <timestamp>1564566428172</timestamp>
+      <itemFullName>deploy-to-staging</itemFullName>
+      <timestamp0>1564564013089</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@2.2.0">
+      <timestamp>1564566688167</timestamp>
+      <itemFullName>deploy-to-prod</itemFullName>
+      <timestamp0>1564566688167</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

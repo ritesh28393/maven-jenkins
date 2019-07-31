@@ -1,0 +1,14 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-07-31 07:33:17.368 UTC</timestamp>
+  <md5sum>21a7660737c93b31eda432957019c728</md5sum>
+  <fileName>Credential id=8dbaed8b-ba6f-4780-a797-ca43e2004916 name=tomcat/****** (tomcat staging creds)</fileName>
+  <usages/>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@2.2.0">
+      <timestamp>1564558397367</timestamp>
+      <itemFullName>deploy-to-staging</itemFullName>
+      <timestamp0>1564558397367</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

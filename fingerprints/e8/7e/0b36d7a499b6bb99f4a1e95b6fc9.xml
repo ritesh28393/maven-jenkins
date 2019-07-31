@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-07-31 07:15:42.717 UTC</timestamp>
+  <original>
+    <name>package</name>
+    <number>9</number>
+  </original>
+  <md5sum>e87e0b36d7a499b6bb99f4a1e95b6fc9</md5sum>
+  <fileName>webapp.war</fileName>
+  <usages>
+    <entry>
+      <string>package</string>
+      <ranges>9</ranges>
+    </entry>
+    <entry>
+      <string>deploy-to-staging</string>
+      <ranges>2-7</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

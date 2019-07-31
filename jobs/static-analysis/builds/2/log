@@ -1,0 +1,71 @@
+Started by upstream project "[8mha:////4GsgVqutkdGHOLIpbEI1D7/3bLo+qYWd1pgXzaVP6MZbAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/az8JP2CxOTsxPRUfQCY/zGswgAAAA==[0mpackage" build number [8mha:////4CEl0pXgsIXhQP5aG4eGc1e+Df+KdXBptN+8dOLhqEDFAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBj79rPwk/YLE5OzE9FR9cwD3tsaLwwAAAA==[0m7
+originally caused by:
+ Started by user [8mha:////4M08xxtPcD7V9ddMsl2bij1NqF5iJTNiNKRebl3uxHVRAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/static-analysis
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/ritesh28393/maven-project.git # timeout=10
+Fetching upstream changes from https://github.com/ritesh28393/maven-project.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/ritesh28393/maven-project.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision d2f715950c58c61ed18a8b4d62ec29867d2b69e8 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f d2f715950c58c61ed18a8b4d62ec29867d2b69e8
+Commit message: "Update README.md"
+ > git rev-list --no-walk d2f715950c58c61ed18a8b4d62ec29867d2b69e8 # timeout=10
+[static-analysis] $ /opt/maven/bin/mvn checkstyle:checkstyle
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Maven Project
+[INFO] Server
+[INFO] Webapp
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Maven Project 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:////4Prh3+f9ly71jXu3RfD1MESIlhmStKql1wbEWggjMc5sAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-checkstyle-plugin:2.8:checkstyle (default-cli) @ maven-project ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Server 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:////4Prh3+f9ly71jXu3RfD1MESIlhmStKql1wbEWggjMc5sAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-checkstyle-plugin:2.8:checkstyle (default-cli) @ server ---
+[INFO] 
+[INFO] There are 5 checkstyle errors.
+[8mha:////4PG35rLJptiBIJGH9dl+Apd4HDcy5waZKAjxuXEfNydIAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Unable to locate Source XRef to link to - DISABLED
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Webapp 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:////4Prh3+f9ly71jXu3RfD1MESIlhmStKql1wbEWggjMc5sAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-checkstyle-plugin:2.8:checkstyle (default-cli) @ webapp ---
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Maven Project ...................................... SUCCESS [  0.531 s]
+[INFO] Server ............................................. SUCCESS [  1.098 s]
+[INFO] Webapp ............................................. SUCCESS [  0.030 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.978 s
+[INFO] Finished at: 2019-07-31T07:13:51+00:00
+[INFO] Final Memory: 19M/262M
+[INFO] ------------------------------------------------------------------------
+[CHECKSTYLE] Collecting checkstyle analysis files...
+[CHECKSTYLE] Searching for all files in /var/lib/jenkins/workspace/static-analysis that match the pattern **/checkstyle-result.xml
+[CHECKSTYLE] Parsing 1 file in /var/lib/jenkins/workspace/static-analysis
+[CHECKSTYLE] Successfully parsed file /var/lib/jenkins/workspace/static-analysis/server/target/checkstyle-result.xml with 5 unique warnings and 0 duplicates.
+No credentials specified
+<Git Blamer> Using GitBlamer to create author and commit information for all warnings.
+<Git Blamer> GIT_COMMIT=d2f715950c58c61ed18a8b4d62ec29867d2b69e8, workspace=/var/lib/jenkins/workspace/static-analysis
+ > git rev-parse d2f715950c58c61ed18a8b4d62ec29867d2b69e8^{commit} # timeout=10
+[CHECKSTYLE] Computing warning deltas based on reference build #1
+Finished: SUCCESS

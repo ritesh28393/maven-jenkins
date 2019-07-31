@@ -1,0 +1,10 @@
+Started on Jul 31, 2019 10:33:00 AM
+Using strategy: Default
+[poll] Last Built Revision: Revision d2f715950c58c61ed18a8b4d62ec29867d2b69e8 (refs/remotes/origin/master)
+No credentials specified
+ > git --version # timeout=10
+ > git ls-remote -h https://github.com/ritesh28393/maven-project.git # timeout=10
+Found 5 remote heads on https://github.com/ritesh28393/maven-project.git
+[poll] Latest remote head revision on refs/heads/master is: d2f715950c58c61ed18a8b4d62ec29867d2b69e8 - already built by 12
+Done. Took 1 sec
+No changes

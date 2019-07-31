@@ -1,0 +1,53 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+        <entry>
+          <hudson.model.Cause_-UpstreamCause>
+            <upstreamProject>deploy-to-staging</upstreamProject>
+            <upstreamUrl>f7dba82f-181a-4ce3-a1f3-11f2b71d2003/job/deploy-to-staging/</upstreamUrl>
+            <upstreamBuild>11</upstreamBuild>
+            <upstreamCauses>
+              <hudson.model.Cause_-UpstreamCause>
+                <upstreamProject>package</upstreamProject>
+                <upstreamUrl>job/package/</upstreamUrl>
+                <upstreamBuild>12</upstreamBuild>
+                <upstreamCauses>
+                  <hudson.model.Cause_-UserIdCause>
+                    <userId>admin</userId>
+                  </hudson.model.Cause_-UserIdCause>
+                </upstreamCauses>
+              </hudson.model.Cause_-UpstreamCause>
+            </upstreamCauses>
+          </hudson.model.Cause_-UpstreamCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.model.ParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters/>
+      <parameterDefinitionNames class="empty-list"/>
+    </hudson.model.ParametersAction>
+    <hudson.plugins.copyartifact.CopyArtifact_-EnvAction plugin="copyartifact@1.42.1"/>
+  </actions>
+  <queueId>31</queueId>
+  <timestamp>1564566688136</timestamp>
+  <startTime>1564566688142</startTime>
+  <result>SUCCESS</result>
+  <duration>153</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/lib/jenkins/workspace/deploy-to-prod</workspace>
+  <hudsonVersion>2.176.2</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>

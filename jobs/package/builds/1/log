@@ -1,0 +1,25 @@
+Started by user [8mha:////4M08xxtPcD7V9ddMsl2bij1NqF5iJTNiNKRebl3uxHVRAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/maven-project
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/ritesh28393/maven-project.git
+ > git init /var/lib/jenkins/workspace/maven-project # timeout=10
+Fetching upstream changes from https://github.com/ritesh28393/maven-project.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/ritesh28393/maven-project.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/ritesh28393/maven-project.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/ritesh28393/maven-project.git # timeout=10
+Fetching upstream changes from https://github.com/ritesh28393/maven-project.git
+ > git fetch --tags --progress https://github.com/ritesh28393/maven-project.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 0caf6111d5ef4679bf818f99fa448a525566ee69 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 0caf6111d5ef4679bf818f99fa448a525566ee69
+Commit message: "Merge pull request #14 from jleetutorial/jleetutorial-patch-1-1"
+First time build. Skipping changelog.
+FATAL: Couldn’t find any executable in /opt/maven/bin/mvn
+Build step 'Invoke top-level Maven targets' marked build as failure
+Finished: FAILURE
